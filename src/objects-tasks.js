@@ -468,7 +468,7 @@ const cssSelectorBuilder = {
       (errorId === 1 || errorId === 2 || errorId === 6)
     ) {
       throw new Error(
-        'Element, id and pseudo-element should not occur more then one time inside the selector'
+        'Element, id and pseudo-element should not occur more than one time inside the selector'
       );
     }
   },
